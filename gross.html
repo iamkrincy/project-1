@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+    //  Write a javascript Program to find gross salary
+
+
+        let Base_Salary = parseInt(prompt("Enter value of Base_Salary"));
+        let HRA = parseInt(prompt("Enter value of HRA"));
+        let DA = parseInt(prompt("Enter value of DA"));
+        let TA = parseInt(prompt("Enter value of TA"));
+
+        let Gross_Salary;
+
+        HRA = Base_Salary * HRA /100
+        DA = Base_Salary * DA /100
+        TA = Base_Salary * TA /100
+
+        Gross_Salary = Base_Salary - HRA - DA -TA
+
+       console.log("The gross salary by removing hra,da and ta is=",Gross_Salary);
+
+
+ </script>
+
+</body>
+</html>
